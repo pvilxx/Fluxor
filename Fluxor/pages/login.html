@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fluxor</title>
+    <link rel="stylesheet" href="../assets/loginRegister.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side" id="left-side">
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Iniciar Sesión</button>
+                <a href="#" id="forgot-password" class="small-text">Olvidé mi Contraseña</a>
+            </form>
+        </div>
+        <div class="right-side">
+            <button id="show-login">Iniciar Sesión</button>
+            <button id="show-register">Crear Cuenta</button>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
